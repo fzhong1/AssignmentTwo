@@ -42,13 +42,13 @@
 <html>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>Hello AWS Web World!</title>
+    <title>Hello AWS Web World!!!!</title>
     <link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen">
 </head>
 <body>
     <div id="content" class="container">
         <div class="section grid grid5 s3">
-            <h2>Amazon S3 Buckets:</h2>
+            <h2>Amazon S3 fsdfsBuckets:</h2>
             <ul>
             <% for (Bucket bucket : s3.listBuckets()) { %>
                <li> <%= bucket.getName() %> </li>
